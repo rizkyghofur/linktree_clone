@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:linktree_clone/pages/LandingPage.dart';
+import 'package:url_strategy/url_strategy.dart';
 
 void main() {
+  setPathUrlStrategy();
   runApp(MyApp());
 }
 
